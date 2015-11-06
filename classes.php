@@ -1,11 +1,11 @@
-<h1>Single Variable</h1>
+<h1>Class</h1>
 <?php
 
 /**
 * Class
 */
 class Person {
-	
+
 	public $name;
 	public $age;
 	

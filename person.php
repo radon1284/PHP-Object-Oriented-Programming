@@ -4,9 +4,9 @@ require 'person.php';
 
 $person = new Person;
 
-$person->$name = 'Gab';
+$person->name = 'Gab';
 
-$person->$age = 2;
+$person->age = 2;
 
 
-echo 'My name is'. $person->$name . ' and Im' . $person->$age;
+echo 'My name is '. $person->name . ' and Im' . $person->age . ' years old.';
